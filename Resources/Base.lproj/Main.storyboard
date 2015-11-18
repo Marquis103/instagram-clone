@@ -79,10 +79,10 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gIq-kA-DwJ">
-                                <rect key="frame" x="262" y="265" width="38" height="30"/>
+                                <rect key="frame" x="262" y="265" width="58" height="30"/>
                                 <animations/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="38" id="xkf-fN-Eyl"/>
+                                    <constraint firstAttribute="width" constant="58" id="xkf-fN-Eyl"/>
                                 </constraints>
                                 <state key="normal" title="Login"/>
                                 <connections>
@@ -117,6 +117,9 @@
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
+                        <outlet property="btnLogin" destination="gIq-kA-DwJ" id="TNe-13-sxq"/>
+                        <outlet property="btnSignUp" destination="0YA-2v-3lp" id="F1A-yQ-aef"/>
+                        <outlet property="lblRegistered" destination="bWw-mR-8D6" id="nIC-PO-Xg3"/>
                         <outlet property="password" destination="ebk-8Q-3nT" id="LKg-KV-H6D"/>
                         <outlet property="username" destination="O0Q-8b-KaW" id="p7Z-AX-3Zc"/>
                     </connections>
